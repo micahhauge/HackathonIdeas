@@ -6,5 +6,6 @@ function IdeaController($scope) {
         { name: "Android App", description: lorem, contributers: "Micah, Brian, Nathan", startdate: "11/11/2017" },
         { name: "Music Generation", description: lorem, contributers: "Micah, Brian, Nathan", startdate: "11/11/2017" },
         { name: "Another Project", description: lorem, contributers: "Micah, Brian, Nathan", startdate: "11/11/2017" },
+        { name: "Music Generation", description: lorem, contributers: "Micah, Brian, Nathan", startdate: "11/11/2017" },
     ];
 }
