@@ -4,7 +4,6 @@
         <script src="app.js"></script>
         <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-
         <link rel="stylesheet" href="style.css" />
 
     </head>
@@ -16,6 +15,7 @@
 
     <div class="row">
         <div class="col-md-6">
+            {{ projects }}
             <button class="btn btn-success" ng-click='addProject()'>Add Project</button>
             <ul ng-repeat="project in projects">
                 <div class="panel panel-primary">
