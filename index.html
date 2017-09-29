@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+<body ng-controller="ProjectController">
+<h1>HackBrain</h1>
+
+
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <button class="btn btn-success" ng-click='addProject()'>Add Project</button>
+            <ul ng-repeat="project in projects">
+                <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{ project.name }}</h3>
+                </div>
+                <div class="panel-body">
+                    {{ project.name }}
+                    <button class="btn btn-success pull-right">Join this Project</button>
+                </div>
+            </div>
+            </div>
+        </ul>
+
+
+    </div>
+
+</body>
+</html>

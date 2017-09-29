@@ -1,0 +1,5 @@
+.big-h {
+    font-size: 30px;
+}
+
+docker exec -it sqlcontainer1 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P '<YourStrong!Passw0rd>' -Q 'ALTER LOGIN SA WITH PASSWORD="console.log('Hello, world!')"'
